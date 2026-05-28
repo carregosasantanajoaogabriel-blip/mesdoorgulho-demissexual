@@ -1105,11 +1105,11 @@ section {
         backdrop-filter: blur(20px);
         flex-direction: column;
         gap: 1.5rem;
-        padding: 2rem;
+        padding: 0 0 28rem 20px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         display: none;
         z-index: 99;
-        overflow-y: auto;
+        /*overflow-y: auto;*/
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
         order: unset;
     }
@@ -1445,7 +1445,7 @@ section {
 
     .nav-menu {
         top: 50px;
-        padding: 1.5rem;
+        padding: 0 0 22.2rem 20px;
         gap: 1rem;
     }
 
